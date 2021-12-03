@@ -100,3 +100,23 @@ span{
 #register{
     left: 450px;
 }
+@media only screen and (max-width:770px) {
+    .hero{
+        height: 100vh;
+        width: 100vw;
+        background-image:url(image/background.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }
+    .form-box{
+        align-items: center;
+        width: 380px;
+        height: 450px;
+        /* position: relative; */
+        margin: 45% 3px 20% 12px ;
+        background: white;
+        padding: 5px auto;
+        overflow: hidden;
+    }
+}
